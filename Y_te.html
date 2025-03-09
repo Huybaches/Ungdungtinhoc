@@ -16,6 +16,7 @@
             font-size: 42px;
             margin-left: 10%;
             margin-right: 20%;
+            margin-bottom: 0px;
         }
 
         .h2{
@@ -43,19 +44,33 @@
             line-height: 0.5;
         }
 
-        .author {
-            font-size: 14px;
-            font-family: system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
-            margin-left: 15%;
-            line-height: 0.5;
-        }
-
         img {
             width: 50%;
             height: auto;
             margin-left: 15%;
         }
+        .author {
+            font-size: 14px;
+            font-family: system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+            margin-left: 15%;
+            line-height: 0.5;
+            display: inline-block;
+            vertical-align: middle;
+        }    
         
+        .smcont {
+            text-align: left;
+            margin-bottom: 0px;
+        }
+
+        .smlogo {
+            width: 20px;
+            height: 20px;
+            margin: 2px;
+            display: inline-block;
+            vertical-align: middle;
+        }
+
         body {
             margin: 0;
             padding: 0;
@@ -91,6 +106,25 @@
                 width: 100%;
             }
         }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        footer a {
+            color: #ff7f50; /* Link color */
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
@@ -107,8 +141,17 @@
 <body>
     <div>
         <p class="h1">Ứng dụng của Công nghệ thông tin trong Y tế<p>    
-        <p class="author"><span style="font-weight: bold;">Lê Huy Bách</span> - lehjuybach2202@gmail.com</p>
-        <p class="author"><span style="font-weight: bold;">Đoàn Quốc Trung</span> - doanquoctrung2501@gmail.com</p>
+        
+            <div class="smcont">
+                <p class="author"><span style="font-weight: bold;">Lê Huy Bách</span> - lehjuybach2202@gmail.com</p>
+                <a href="https://www.facebook.com/huybaches/"><img class="smlogo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/2023_Facebook_icon.svg/2048px-2023_Facebook_icon.svg.png"></a>
+                <a href="https://www.instagram.com/huybaches/"><img class="smlogo" src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png"></a>
+            </div>
+            <div class="smcont">
+                <p class="author"><span style="font-weight: bold;">Đoàn Quốc Trung</span> - doanquoctrung2501@gmail.com</p>
+                <a href="https://www.facebook.com/100012135376681"><img class="smlogo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/2023_Facebook_icon.svg/2048px-2023_Facebook_icon.svg.png"></a>
+                <a href="https://www.instagram.com/qchung2501/"><img class="smlogo" src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png"></a>
+            </div>
     </div>
     
     <hr style="margin-left: 10%; margin-right: 20%;">
@@ -170,6 +213,14 @@
             <p class="p1" style="margin-left: 15%;">Một sô protein AlphaFold đã dự đoán chính xác</p>
         </div>
     </div>
+    <div>
+          <p class="p1">Tóm lại, công nghệ thông tin đang đóng vai trò quan trọng trong việc nâng cao chất lượng dịch vụ y tế, từ việc quản lý hồ sơ bệnh án điện tử cho đến việc hỗ trợ chẩn đoán và điều trị thông qua các hệ thống trí tuệ nhân tạo. Các tiến bộ này không chỉ giúp cải thiện hiệu quả công tác chăm sóc sức khỏe mà còn mở ra những cơ hội mới trong việc tăng cường khả năng tiếp cận và giảm chi phí điều trị cho bệnh nhân. Mặc dù còn nhiều thách thức liên quan đến bảo mật và hạ tầng công nghệ, nhưng với sự phát triển không ngừng của công nghệ, tương lai của ngành y tế hứa hẹn sẽ có những bước tiến vượt bậc, mang lại lợi ích lâu dài cho cộng đồng.</p>
+    </div>
+  
     <div style="margin-bottom: 300px;"></div>
 </body>
+<footer>
+    <p>&copy; 2025 Nhóm 7 Lớp 12Tin7. All Rights Reserved.</p>
+    <p><a href="/privacy-policy">Privacy Policy</a> | <a href="/terms-of-service">Terms of Service</a></p>
+</footer>
 </html>
